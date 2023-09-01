@@ -2,7 +2,7 @@
 *
 * TechTB
 * T3S (SimpleStyleSheet)
-* v2.1.0
+* v2.1.2
 *
 */
 
@@ -35,10 +35,35 @@ a {
     margin: 0;
 }
 
+h1 {
+    margin: 8px;
+    padding: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 8px;
+    padding: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 8px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 p {
     font-family: inherit;
     font-size: inherit;
     padding: 0;
+    margin: 0;
+}
+
+ul {
     margin: 0;
 }
 
@@ -90,6 +115,10 @@ p {
 
 .t3s-w-512 {
     width: 512px;
+}
+
+.t3s-w-768 {
+    width: 768px;
 }
 
 .t3s-w-1024 {
@@ -169,6 +198,10 @@ p {
     min-width: 512px;
 }
 
+.t3s-min-w-768 {
+    min-width: 768px;
+}
+
 .t3s-min-w-1024 {
     min-width: 1024px;
 }
@@ -232,6 +265,10 @@ p {
     max-width: 512px;
 }
 
+.t3s-max-w-768 {
+    max-width: 768px;
+}
+
 .t3s-max-w-1024 {
     max-width: 1024px;
 }
@@ -288,6 +325,10 @@ p {
 
 .t3s-h-512 {
     height: 512px;
+}
+
+.t3s-h-768 {
+    height: 768px;
 }
 
 .t3s-h-1024 {
@@ -369,6 +410,10 @@ p {
     min-height: 512px;
 }
 
+.t3s-min-h-768 {
+    min-height: 768px;
+}
+
 .t3s-min-h-1024 {
     min-height: 1024px;
 }
@@ -424,6 +469,10 @@ p {
 
 .t3s-max-h-512 {
     max-height: 512px;
+}
+
+.t3s-max-h-768 {
+    max-height: 768px;
 }
 
 .t3s-max-h-1024 {
@@ -2308,6 +2357,9 @@ id_ .t3s-pad-sides-12 {
     background-color: rgba(169, 169, 169, .9);
     z-index: 900;
 }
+
+/* Loader Classes */
+/* Will add loader classes here */
 
 /* Misc */
 .t3s-pointer {
