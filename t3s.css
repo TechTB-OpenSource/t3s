@@ -117,6 +117,10 @@ ul {
     width: 512px;
 }
 
+.t3s-w-768 {
+    width: 768px;
+}
+
 .t3s-w-1024 {
     width: 1024px;
 }
@@ -194,6 +198,10 @@ ul {
     min-width: 512px;
 }
 
+.t3s-min-w-768 {
+    min-width: 768px;
+}
+
 .t3s-min-w-1024 {
     min-width: 1024px;
 }
@@ -257,6 +265,10 @@ ul {
     max-width: 512px;
 }
 
+.t3s-max-w-768 {
+    max-width: 768px;
+}
+
 .t3s-max-w-1024 {
     max-width: 1024px;
 }
@@ -313,6 +325,10 @@ ul {
 
 .t3s-h-512 {
     height: 512px;
+}
+
+.t3s-h-768 {
+    height: 768px;
 }
 
 .t3s-h-1024 {
@@ -394,6 +410,10 @@ ul {
     min-height: 512px;
 }
 
+.t3s-min-h-768 {
+    min-height: 768px;
+}
+
 .t3s-min-h-1024 {
     min-height: 1024px;
 }
@@ -449,6 +469,10 @@ ul {
 
 .t3s-max-h-512 {
     max-height: 512px;
+}
+
+.t3s-max-h-768 {
+    max-height: 768px;
 }
 
 .t3s-max-h-1024 {
