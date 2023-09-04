@@ -2367,6 +2367,7 @@ id_ .t3s-pad-sides-12 {
 .t3s-glass-1 {
     position: relative;
     border: 1px solid rgba(255, 255, 255, .3);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
 .t3s-glass-1::before {
@@ -2387,6 +2388,7 @@ id_ .t3s-pad-sides-12 {
     position: relative;
     border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, .3);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
 .t3s-glass-round::before {
