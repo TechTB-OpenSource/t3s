@@ -2,7 +2,7 @@
 *
 * TechTB
 * T3S (SimpleStyleSheet)
-* v2.1.3-early
+* v2.1.3
 *
 */
 
@@ -2261,7 +2261,14 @@ id_ .t3s-pad-sides-12 {
     overflow: hidden;
 }
 
-.t3s-bar-bottom {
+.t3s-header {
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    overflow: hidden;
+}
+
+.t3s-footer {
     width: 100%;
     bottom: 0px;
     position: fixed;
