@@ -2,7 +2,7 @@
 *
 * TechTB
 * T3S (SimpleStyleSheet)
-* v2.1.4
+* v2.1.5
 *
 */
 
@@ -2284,6 +2284,22 @@ id_ .t3s-pad-sides-12 {
     bottom: 0px;
     position: fixed;
     overflow: hidden;
+}
+
+.t3s-p-gap {
+    line-height: 1.5 !important;
+}
+
+.t3s-p-gap-2 {
+    line-height: 2 !important;
+}
+
+.t3s-p-gap-3 {
+    line-height: 3 !important;
+}
+
+.t3s-p-gap-4 {
+    line-height: 4 !important;
 }
 
 .t3s-button {
