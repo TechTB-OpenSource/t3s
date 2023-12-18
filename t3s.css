@@ -2447,6 +2447,7 @@ id_ .t3s-pad-sides-12 {
     cursor: pointer;
 }
 
+.t3s-under,
 .t3s-underline {
     text-decoration: underline;
 }
