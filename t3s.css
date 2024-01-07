@@ -2660,6 +2660,7 @@ id_ .t3s-pad-sides-12 {
     width: fill-available;
     padding: 16px;
     display: flex;
+    flex-direction: row;
     justify-content: start;
     align-items: center;
     border: none;
@@ -2679,6 +2680,7 @@ id_ .t3s-pad-sides-12 {
 .site-button-header {
     height: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     border: none;
@@ -2694,6 +2696,22 @@ id_ .t3s-pad-sides-12 {
     background-color: lightgray;
     color: gray;
     cursor: unset;
+}
+
+.t3s-button-simple {
+    border: none;
+    font-weight: bold;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: unset;
+    color: inherit;
+}
+
+.t3s-button:disabled {
+    background-color: lightgray !important;
+    color: gray !important;
+    cursor: unset !important;
 }
 
 .t3s-input {
