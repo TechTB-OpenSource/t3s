@@ -2708,7 +2708,7 @@ id_ .t3s-pad-sides-12 {
     color: inherit;
 }
 
-.t3s-button:disabled {
+.t3s-button-simple:disabled {
     background-color: lightgray !important;
     color: gray !important;
     cursor: unset !important;
