@@ -2594,7 +2594,6 @@ id_ .t3s-pad-sides-12 {
     width: 100%;
     top: 0px;
     position: fixed;
-    overflow: hidden;
 }
 
 .t3s-footer {
@@ -2919,6 +2918,20 @@ id_ .t3s-pad-sides-12 {
     animation: spin 2s linear infinite;
     position: absolute;
     z-index: 910;
+}
+
+/* Drop Down Classes */
+.t3s-hoverdrop-hidable {
+    display: none;
+    position: absolute;
+    top: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.t3s-hoverdrop-container:hover .t3s-hoverdrop-hidable {
+    display: flex;
 }
 
 /* Misc */
