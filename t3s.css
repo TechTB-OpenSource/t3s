@@ -2561,6 +2561,11 @@ id_ .t3s-pad-sides-12 {
     border-bottom: 8px solid black !important;
 }
 
+/* Box Sizing */
+.t3s-borderbox {
+    box-sizing: border-box !important;
+}
+
 /* Object Classes */
 /*
 *
