@@ -2,7 +2,7 @@
 *
 * TechTB
 * T3S (SimpleStyleSheet)
-* v2.1.9
+* v2.2.0
 *
 */
 
@@ -2706,6 +2706,7 @@ id_ .t3s-pad-sides-12 {
 }
 
 .t3s-button-simple {
+    padding: unset;
     border: none;
     overflow: hidden;
     cursor: pointer;
