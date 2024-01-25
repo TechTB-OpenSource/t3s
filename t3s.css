@@ -2,7 +2,7 @@
 *
 * TechTB
 * T3S (SimpleStyleSheet)
-* v2.2.0
+* v2.2.1
 *
 */
 
@@ -2944,6 +2944,10 @@ id_ .t3s-pad-sides-12 {
 }
 
 /* Misc */
+.t3s-zn1 {
+    z-index: -1;
+}
+
 .t3s-pointer {
     cursor: pointer;
 }
