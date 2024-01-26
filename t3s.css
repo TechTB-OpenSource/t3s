@@ -2,7 +2,7 @@
 *
 * TechTB
 * T3S (SimpleStyleSheet)
-* v2.2.1
+* v2.2.2
 *
 */
 
@@ -2979,6 +2979,38 @@ id_ .t3s-pad-sides-12 {
 }
 
 /* Transition Classes */
+.t3s-tran_h_100 {
+    transition: height 100ms;
+}
+
+.t3s-tran_w_100 {
+    transition: width 100ms;
+}
+
+.t3s-tran_h_200 {
+    transition: height 200ms;
+}
+
+.t3s-tran_w_200 {
+    transition: width 200ms;
+}
+
+.t3s-tran_h_300 {
+    transition: height 300ms;
+}
+
+.t3s-tran_w_300 {
+    transition: width 300ms;
+}
+
+.t3s-tran_h_400 {
+    transition: height 400ms;
+}
+
+.t3s-tran_w_400 {
+    transition: width 400ms;
+}
+
 .t3s-tran_h_500 {
     transition: height 500ms;
 }
