@@ -2,7 +2,7 @@
 *
 * TechTB
 * T3S (SimpleStyleSheet)
-* v2.2.3
+* v2.2.4
 *
 */
 
@@ -1794,19 +1794,100 @@ id_ .t3s-pad-sides-12 {
 }
 
 .t3s-top-0 {
-    top: 0;
+    top: 0px;
 }
-
+.t3s-top-2 {
+    top: 2px;
+}
+.t3s-top-4 {
+    top: 4px;
+}
+.t3s-top-8 {
+    top: 8px;
+}
+.t3s-top-16 {
+    top: 16px;
+}
+.t3s-top-32 {
+    top: 32px;
+}
+.t3s-top-64 {
+    top: 64px;
+}
+.t3s-top-128 {
+    top: 128px;
+}
 .t3s-bottom-0 {
-    bottom: 0;
+    bottom: 0px;
 }
-
+.t3s-bottom-2 {
+    bottom: 2px;
+}
+.t3s-bottom-4 {
+    bottom: 4px;
+}
+.t3s-bottom-8 {
+    bottom: 8px;
+}
+.t3s-bottom-16 {
+    bottom: 16px;
+}
+.t3s-bottom-32 {
+    bottom: 32px;
+}
+.t3s-bottom-64 {
+    bottom: 64px;
+}
+.t3s-bottom-128 {
+    bottom: 128px;
+}
 .t3s-left-0 {
-    left: 0;
+    left: 0px;
 }
-
+.t3s-left-2 {
+    left: 2px;
+}
+.t3s-left-4 {
+    left: 4px;
+}
+.t3s-left-8 {
+    left: 8px;
+}
+.t3s-left-16 {
+    left: 16px;
+}
+.t3s-left-32 {
+    left: 32px;
+}
+.t3s-left-64 {
+    left: 64px;
+}
+.t3s-left-128 {
+    left: 128px;
+}
 .t3s-right-0 {
-    right: 0;
+    right: 0px;
+}
+.t3s-right-2 {
+    right: 2px;
+}
+.t3s-right-4 {
+    right: 4px;
+}
+.t3s-right-8 {
+    right: 8px;
+}
+.t3s-right-16 {
+    right: 16px;
+}
+.t3s-right-32 {
+    right: 32px;
+}
+.t3s-right-64 {
+    right: 64px;
+}
+.t3s-right-128 {
+    right: 128px;
 }
 
 .t3s-top {
@@ -2854,6 +2935,121 @@ id_ .t3s-pad-sides-12 {
     z-index: -1;
 }
 
+/* Toggle Switch */
+/* Toggle Switch - the box around the slider */
+.t3s-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+/* Hide default HTML checkbox */
+.t3s-switch input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.t3s-switch-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+.t3s-switch-slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: darkgrey;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+input:checked+.t3s-switch-slider {
+    background-color: dimgrey;
+}
+input:focus+.t3s-switch-slider {
+    box-shadow: 0 0 1px black;
+}
+
+input:checked+.t3s-switch-slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+/* Check Box */
+/* The container */
+.t3s-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 32px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 16px;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .t3s-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Custom checkbox */
+  .t3s-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: lightgrey;
+  }
+  /* On mouse-over, add a grey background color */
+  .t3s-checkbox:hover input~.t3s-checkmark {
+    background-color: grey;
+  }
+  /* When the checkbox is checked, add a blue background */
+  .t3s-checkbox input:checked~.t3s-checkmark {
+    background-color: blue;
+  }
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .t3s-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  /* Show the checkmark when checked */
+  .t3s-checkbox input:checked~.t3s-checkmark:after {
+    display: block;
+  }
+  /* Style the checkmark/indicator */
+  .t3s-checkbox .t3s-checkmark:after {
+    left: 6px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
 /* Loader Classes */
 .t3s-loader-black {
     border: 8px solid gainsboro;
@@ -2958,6 +3154,26 @@ id_ .t3s-pad-sides-12 {
     position: absolute;
     z-index: 910;
 }
+
+@-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+  
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 
 /* Drop Down Classes */
 .t3s-hoverdrop-hidable {
