@@ -6,6 +6,6 @@
 *
 */
 
-@import url('./t3s-util.css');
-@import url('./t3s-elm.css');
-@import url('./t3s-ani.css');
+@import url('https://str.tectb.biz/t3s/t3s-util.css');
+@import url('https://str.tectb.biz/t3s/t3s-comp.css');
+@import url('https://str.tectb.biz/t3s/t3s-ani.css');
