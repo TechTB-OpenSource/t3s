@@ -2,7 +2,7 @@
 *
 * TechTB
 * T3S - Animation Classes
-* v2.3.0
+* v3.0.0
 *
 */
 
@@ -31,6 +31,26 @@
     transition: height 500ms;
 }
 
+.t3s-tran_h_1 {
+    transition: height 1s;
+}
+
+.t3s-tran_h_2 {
+    transition: height 2s;
+}
+
+.t3s-tran_h_3 {
+    transition: height 3s;
+}
+
+.t3s-tran_h_4 {
+    transition: height 4s;
+}
+
+.t3s-tran_h_5 {
+    transition: height 5s;
+}
+
 .t3s-tran_w_100 {
     transition: width 100ms;
 }
@@ -49,6 +69,66 @@
 
 .t3s-tran_w_500 {
     transition: width 500ms;
+}
+
+.t3s-tran_w_1 {
+    transition: width 1s;
+}
+
+.t3s-tran_w_2 {
+    transition: width 2s;
+}
+
+.t3s-tran_w_3 {
+    transition: width 3s;
+}
+
+.t3s-tran_w_4 {
+    transition: width 4s;
+}
+
+.t3s-tran_w_5 {
+    transition: width 5s;
+}
+
+.t3s-tran_op_100 {
+    transition: opacity 100ms;
+}
+
+.t3s-tran_op_200 {
+    transition: opacity 200ms;
+}
+
+.t3s-tran_op_300 {
+    transition: opacity 300ms;
+}
+
+.t3s-tran_op_400 {
+    transition: opacity 400ms;
+}
+
+.t3s-tran_op_500 {
+    transition: opacity 500ms;
+}
+
+.t3s-tran_op_1 {
+    transition: opacity 1s;
+}
+
+.t3s-tran_op_2 {
+    transition: opacity 2s;
+}
+
+.t3s-tran_op_3 {
+    transition: opacity 3s;
+}
+
+.t3s-tran_op_4 {
+    transition: opacity 4s;
+}
+
+.t3s-tran_op_5 {
+    transition: opacity 5s;
 }
 
 /* Animation Classes */

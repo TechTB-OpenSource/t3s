@@ -2,7 +2,7 @@
 *
 * TechTB
 * T3S - Utility Classes
-* v2.3.0
+* v3.0.0
 *
 */
 
@@ -2784,9 +2784,56 @@ id_ .t3s-pad-sides-12 {
     border-bottom: 8px solid black !important;
 }
 
-/* Box Sizing */
+/* Box Sizing Classes */
 .t3s-borderbox {
     box-sizing: border-box !important;
+}
+
+/* Opacity Classes */
+.t3s-opacity-0,
+.t3s-opacity-0p {
+    opacity: 0;
+}
+
+.t3s-opacity-10p {
+    opacity: .1;
+}
+
+.t3s-opacity-20p {
+    opacity: .2;
+}
+
+.t3s-opacity-30p {
+    opacity: .3;
+}
+
+.t3s-opacity-40p {
+    opacity: .4;
+}
+
+.t3s-opacity-50p {
+    opacity: .5;
+}
+
+.t3s-opacity-60p {
+    opacity: .6;
+}
+
+.t3s-opacity-70p {
+    opacity: .7;
+}
+
+.t3s-opacity-80p {
+    opacity: .8;
+}
+
+.t3s-opacity-90p {
+    opacity: .9;
+}
+
+.t3s-opacity-1,
+.t3s-opacity-100p {
+    opacity: 1;
 }
 
 /* Misc */
@@ -2823,4 +2870,3 @@ id_ .t3s-pad-sides-12 {
 .t3s-hide {
     display: none !important;
 }
-
