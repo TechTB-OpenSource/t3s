@@ -2841,13 +2841,19 @@ id_ .t3s-pad-sides-12 {
     z-index: -1;
 }
 
-.t3s-pointer {
-    cursor: pointer;
+.t3s-pointer,
+.t3s-cur-pointer {
+    cursor: pointer !important;
 }
+.t3s-cur-text {
+    cursor: text !important;
+}
+
+
 
 .t3s-under,
 .t3s-underline {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 .t3s-overauto {
