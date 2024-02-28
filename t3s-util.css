@@ -2836,6 +2836,11 @@ id_ .t3s-pad-sides-12 {
     opacity: 1;
 }
 
+/* Word */
+.t3s-word-break {
+    word-break: break-word;
+}
+
 /* Misc */
 .t3s-zn1 {
     z-index: -1;
@@ -2848,8 +2853,6 @@ id_ .t3s-pad-sides-12 {
 .t3s-cur-text {
     cursor: text !important;
 }
-
-
 
 .t3s-under,
 .t3s-underline {
