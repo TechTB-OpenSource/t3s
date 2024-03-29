@@ -2177,6 +2177,15 @@ id_ .t3s-pad-sides-12 {
     text-decoration: underline !important;
 }
 
+/* Fill Color Classes */
+.t3s-fill-white {
+    fill: white !important;
+}
+
+.t3s-fill-black {
+    fill: black !important;
+}
+
 /* Font Color Classes */
 .t3s-font-red {
     color: red !important;
