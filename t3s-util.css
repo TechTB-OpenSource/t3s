@@ -2866,6 +2866,19 @@ id_ .t3s-pad-sides-12 {
     text-decoration: underline !important;
 }
 
+.t3s-overhide {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
+
+.t3s-overhide-y {
+    overflow-y: hidden !important;
+}
+
+.t3s-overhide-x {
+    overflow-x: hidden !important;
+}
+
 .t3s-overauto {
     overflow-x: auto;
     overflow-y: auto;
