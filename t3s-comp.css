@@ -390,7 +390,6 @@ input:checked+.t3s-switch-slider:before {
     width: 64px;
     height: 64px;
     -webkit-animation: spin 2s linear infinite;
-    /* Safari */
     animation: spin 2s linear infinite;
     position: absolute;
     z-index: 910;
@@ -403,7 +402,6 @@ input:checked+.t3s-switch-slider:before {
     width: 64px;
     height: 64px;
     -webkit-animation: spin 2s linear infinite;
-    /* Safari */
     animation: spin 2s linear infinite;
     position: absolute;
     z-index: 910;
@@ -416,7 +414,6 @@ input:checked+.t3s-switch-slider:before {
     width: 64px;
     height: 64px;
     -webkit-animation: spin 2s linear infinite;
-    /* Safari */
     animation: spin 2s linear infinite;
     position: absolute;
     z-index: 910;
@@ -429,7 +426,6 @@ input:checked+.t3s-switch-slider:before {
     width: 64px;
     height: 64px;
     -webkit-animation: spin 2s linear infinite;
-    /* Safari */
     animation: spin 2s linear infinite;
     position: absolute;
     z-index: 910;
@@ -442,7 +438,6 @@ input:checked+.t3s-switch-slider:before {
     width: 64px;
     height: 64px;
     -webkit-animation: spin 2s linear infinite;
-    /* Safari */
     animation: spin 2s linear infinite;
     position: absolute;
     z-index: 910;
@@ -455,7 +450,6 @@ input:checked+.t3s-switch-slider:before {
     width: 64px;
     height: 64px;
     -webkit-animation: spin 2s linear infinite;
-    /* Safari */
     animation: spin 2s linear infinite;
     position: absolute;
     z-index: 910;
@@ -468,7 +462,6 @@ input:checked+.t3s-switch-slider:before {
     width: 64px;
     height: 64px;
     -webkit-animation: spin 2s linear infinite;
-    /* Safari */
     animation: spin 2s linear infinite;
     position: absolute;
     z-index: 910;
@@ -481,7 +474,6 @@ input:checked+.t3s-switch-slider:before {
     width: 64px;
     height: 64px;
     -webkit-animation: spin 2s linear infinite;
-    /* Safari */
     animation: spin 2s linear infinite;
     position: absolute;
     z-index: 910;
