@@ -2,7 +2,7 @@
 *
 * TechTB
 * T3S - Utility Classes
-* v3.0.0
+* v4.0.0
 *
 */
 
@@ -1888,7 +1888,7 @@ id_ .t3s-pad-sides-12 {
     right: 0;
 }
 
-/***** COLORS - BACKGROUND /*****/
+/***** COLORS - BACKGROUND *****/
 /* Greys */
 .t3s-white {
     background-color: white !important;

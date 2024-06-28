@@ -1,7 +1,9 @@
 {
   "name": "t3s",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "T3S stands for TechTB Simple Style Sheet. It is a simple and easy to use CSS library.",
   "author": "TechTB",
-  "license": "Apache"
+  "license": "Apache",
+  "main": "./src/index.js",
+  "type": "module"
 }

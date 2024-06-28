@@ -2,7 +2,7 @@
 *
 * TechTB
 * T3S - Component Classes
-* v3.0.0
+* v4.0.0
 *
 */
 
@@ -165,9 +165,7 @@
     border: none;
     outline: none;
     -webkit-appearance: textfield;
-    /* Hide the default arrows */
     appearance: textfield;
-    /* Hide the default arrows */
 }
 
 .t3s-modal-background {
