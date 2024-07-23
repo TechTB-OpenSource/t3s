@@ -1,0 +1,424 @@
+/*
+*
+* TechTB
+* T3S - Animation Classes
+* v4.1.0
+*
+*/
+
+/* Transform Classes */
+.t3s-transform-1 {
+    transition: transform 100ms ease-in-out;
+}
+
+.t3s-transform-2 {
+    transition: transform 200ms ease-in-out;
+}
+
+.t3s-transform-3 {
+    transition: transform 300ms ease-in-out;
+}
+
+.t3s-transform-4 {
+    transition: transform 400ms ease-in-out;
+}
+
+.t3s-transform-5 {
+    transition: transform 500ms ease-in-out;
+}
+
+.t3s-transform-6 {
+    transition: transform 600ms ease-in-out;
+}
+
+.t3s-transform-7 {
+    transition: transform 700ms ease-in-out;
+}
+
+.t3s-transform-8 {
+    transition: transform 800ms ease-in-out;
+}
+
+.t3s-transform-9 {
+    transition: transform 900ms ease-in-out;
+}
+
+.t3s-transform-10 {
+    transition: transform 1s ease-in-out;
+}
+
+/* Transition Classes */
+.t3s-tran-ease {
+    transition-timing-function: ease;
+}
+
+.t3s-tran_h_100 {
+    transition: height 100ms;
+}
+
+.t3s-tran_h_200 {
+    transition: height 200ms;
+}
+
+.t3s-tran_h_300 {
+    transition: height 300ms;
+}
+
+.t3s-tran_h_400 {
+    transition: height 400ms;
+}
+
+.t3s-tran_h_500 {
+    transition: height 500ms;
+}
+
+.t3s-tran_h_1 {
+    transition: height 1s;
+}
+
+.t3s-tran_h_2 {
+    transition: height 2s;
+}
+
+.t3s-tran_h_3 {
+    transition: height 3s;
+}
+
+.t3s-tran_h_4 {
+    transition: height 4s;
+}
+
+.t3s-tran_h_5 {
+    transition: height 5s;
+}
+
+.t3s-tran_w_100 {
+    transition: width 100ms;
+}
+
+.t3s-tran_w_200 {
+    transition: width 200ms;
+}
+
+.t3s-tran_w_300 {
+    transition: width 300ms;
+}
+
+.t3s-tran_w_400 {
+    transition: width 400ms;
+}
+
+.t3s-tran_w_500 {
+    transition: width 500ms;
+}
+
+.t3s-tran_w_1 {
+    transition: width 1s;
+}
+
+.t3s-tran_w_2 {
+    transition: width 2s;
+}
+
+.t3s-tran_w_3 {
+    transition: width 3s;
+}
+
+.t3s-tran_w_4 {
+    transition: width 4s;
+}
+
+.t3s-tran_w_5 {
+    transition: width 5s;
+}
+
+.t3s-tran_op_100 {
+    transition: opacity 100ms;
+}
+
+.t3s-tran_op_200 {
+    transition: opacity 200ms;
+}
+
+.t3s-tran_op_300 {
+    transition: opacity 300ms;
+}
+
+.t3s-tran_op_400 {
+    transition: opacity 400ms;
+}
+
+.t3s-tran_op_500 {
+    transition: opacity 500ms;
+}
+
+.t3s-tran_op_1 {
+    transition: opacity 1s;
+}
+
+.t3s-tran_op_2 {
+    transition: opacity 2s;
+}
+
+.t3s-tran_op_3 {
+    transition: opacity 3s;
+}
+
+.t3s-tran_op_4 {
+    transition: opacity 4s;
+}
+
+.t3s-tran_op_5 {
+    transition: opacity 5s;
+}
+
+/* Animation Classes */
+/*down 100%*/
+.t3s-ani_down_100 {
+    animation: ani_down 100ms;
+}
+
+.t3s-ani_down_200 {
+    animation: ani_down 200ms;
+}
+
+.t3s-ani_down_300 {
+    animation: ani_down 300ms;
+}
+
+.t3s-ani_down_400 {
+    animation: ani_down 400ms;
+}
+
+.t3s-ani_down_500 {
+    animation: ani_down 500ms;
+}
+
+.t3s-ani_down_600 {
+    animation: ani_down 600ms;
+}
+
+.t3s-ani_down_700 {
+    animation: ani_down 700ms;
+}
+
+.t3s-ani_down_800 {
+    animation: ani_down 800ms;
+}
+
+.t3s-ani_down_900 {
+    animation: ani_down 900ms;
+}
+
+.t3s-ani_down_1000 {
+    animation: ani_down 1000ms;
+}
+
+/*down 75%*/
+.t3s-ani_down_75p_500 {
+    animation: ani_down_75p 500ms;
+}
+
+/*down 50%*/
+.t3s-ani_down_50p_500 {
+    animation: ani_down_50p 500ms;
+}
+
+/*down 25%*/
+.t3s-ani_down_25p_500 {
+    animation: ani_down_25p 500ms;
+}
+
+/*up*/
+.t3s-ani_up_100 {
+    animation: ani_up 100ms;
+}
+
+.t3s-ani_up_200 {
+    animation: ani_up 200ms;
+}
+
+.t3s-ani_up_300 {
+    animation: ani_up 300ms;
+}
+
+.t3s-ani_up_400 {
+    animation: ani_up 400ms;
+}
+
+.t3s-ani_up_500 {
+    animation: ani_up 500ms;
+}
+
+.t3s-ani_up_600 {
+    animation: ani_up 600ms;
+}
+
+.t3s-ani_up_700 {
+    animation: ani_up 700ms;
+}
+
+.t3s-ani_up_800 {
+    animation: ani_up 800ms;
+}
+
+.t3s-ani_up_900 {
+    animation: ani_up 900ms;
+}
+
+.t3s-ani_up_1000 {
+    animation: ani_up 1000ms;
+}
+
+/*right*/
+.t3s-ani_right_100 {
+    animation: ani_right 100ms;
+}
+
+.t3s-ani_right_200 {
+    animation: ani_right 200ms;
+}
+
+.t3s-ani_right_300 {
+    animation: ani_right 300ms;
+}
+
+.t3s-ani_right_400 {
+    animation: ani_right 400ms;
+}
+
+.t3s-ani_right_500 {
+    animation: ani_right 500ms;
+}
+
+.t3s-ani_right_600 {
+    animation: ani_right 600ms;
+}
+
+.t3s-ani_right_700 {
+    animation: ani_right 700ms;
+}
+
+.t3s-ani_right_800 {
+    animation: ani_right 800ms;
+}
+
+.t3s-ani_right_900 {
+    animation: ani_right 900ms;
+}
+
+.t3s-ani_right_1000 {
+    animation: ani_right 1000ms;
+}
+
+/*left*/
+.t3s-ani_left_100 {
+    animation: ani_left 100ms;
+}
+
+.t3s-ani_left_200 {
+    animation: ani_left 200ms;
+}
+
+.t3s-ani_left_300 {
+    animation: ani_left 300ms;
+}
+
+.t3s-ani_left_400 {
+    animation: ani_left 400ms;
+}
+
+.t3s-ani_left_500 {
+    animation: ani_left 500ms;
+}
+
+.t3s-ani_left_600 {
+    animation: ani_left 600ms;
+}
+
+.t3s-ani_left_700 {
+    animation: ani_left 700ms;
+}
+
+.t3s-ani_left_800 {
+    animation: ani_left 800ms;
+}
+
+.t3s-ani_left_900 {
+    animation: ani_left 900ms;
+}
+
+.t3s-ani_left_1000 {
+    animation: ani_left 1000ms;
+}
+
+/* Animations */
+@keyframes ani_down {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes ani_down_75p {
+    0% {
+        transform: translateY(-75%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes ani_down_50p {
+    0% {
+        transform: translateY(-50%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes ani_down_25p {
+    0% {
+        transform: translateY(-25%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes ani_up {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes ani_right {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes ani_left {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
