@@ -1,11 +1,9 @@
 /*
 *
 * T3S - Utility Classes
-* v0.1.1
+* v0.1.4
 *
-*/
-
-/* T3S General Order
+* T3S General Order
 *
 *   Height
 *   Width
@@ -14,7 +12,6 @@
 *   Layout
 *
 */
-
 /* WIDTH CLASSES */
 .t3s-w-8 {
     width: 8px;
@@ -2072,57 +2069,57 @@ id_ .t3s-pad-sides-12 {
 
 /* Colors Hover */
 .t3s-hover-red:hover {
-    background-color: crimson;
-    color: white;
+    background-color: crimson !important;
+    color: white !important;
 }
 
 .t3s-hover-black:hover {
-    background-color: black;
-    color: white;
+    background-color: black !important;
+    color: white !important;
 }
 
 .t3s-hover-darkgrey:hover {
-    background-color: darkgray;
-    color: white;
+    background-color: darkgray !important;
+    color: white !important;
 }
 
 .t3s-hover-grey:hover {
-    background-color: grey;
-    color: white;
+    background-color: grey !important;
+    color: white !important;
 }
 
 .t3s-hover-lightgrey:hover {
-    background-color: lightgrey;
-    color: black;
+    background-color: lightgrey !important;
+    color: black !important;
 }
 
 .t3s-hover-gainsboro:hover {
-    background-color: Gainsboro;
-    color: black;
+    background-color: Gainsboro !important;
+    color: black !important;
 }
 
 .t3s-hover-white:hover {
-    background-color: white;
-    color: black;
+    background-color: white !important;
+    color: black !important;
 }
 
 .t3s-hover-aliceblue:hover {
-    background-color: aliceblue;
-    color: black;
+    background-color: aliceblue !important;
+    color: black !important;
 }
 
 .t3s-hover-steelblue:hover {
-    background-color: steelblue;
-    color: white;
+    background-color: steelblue !important;
+    color: white !important;
 }
 
 .t3s-hover-dodgerblue:hover {
-    background-color: dodgerblue;
-    color: white;
+    background-color: dodgerblue !important;
+    color: white !important;
 }
 
 .t3s-hover-under:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 /* Fill Color Classes */

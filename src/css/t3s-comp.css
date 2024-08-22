@@ -1,10 +1,9 @@
 /*
 *
 * T3S - Component Classes
-* v0.1.1
+* v0.1.4
 *
 */
-
 .t3s-ul {
     margin-top: 8px;
     margin-bottom: 8px;
@@ -76,9 +75,9 @@
 }
 
 .t3s-button:disabled {
-    background-color: lightgray;
-    color: gray;
-    cursor: unset;
+    background-color: lightgray !important;
+    color: gray !important;
+    cursor: unset !important;
 }
 
 .t3s-button-nohover {
@@ -111,9 +110,9 @@
 }
 
 .t3s-button-menu:disabled {
-    background-color: lightgray;
-    color: gray;
-    cursor: unset;
+    background-color: lightgray !important;
+    color: gray !important;
+    cursor: unset !important;
 }
 
 .site-button-header {
@@ -132,25 +131,24 @@
 }
 
 .site-button-header:disabled {
-    background-color: lightgray;
-    color: gray;
-    cursor: unset;
+    background-color: lightgray !important;
+    color: gray !important;
+    cursor: unset !important;
 }
 
 .t3s-button-simple {
-    padding: unset;
     border: none;
     overflow: hidden;
     cursor: pointer;
     text-decoration: none;
-    background-color: unset;
     color: inherit;
+    background-color: inherit;
 }
 
 .t3s-button-simple:disabled {
-    background-color: lightgray;
-    color: gray;
-    cursor: unset;
+    background-color: lightgray !important;
+    color: gray !important;
+    cursor: unset !important;
 }
 
 .t3s-input {
@@ -199,17 +197,17 @@
 }
 
 .t3s-glass-light::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(45deg, #c7c7c7, #ffffff, #c7c7c7);
-    opacity: 0.2;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    z-index: -1;
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-image: linear-gradient(45deg, #c7c7c7, #ffffff, #c7c7c7) !important;
+    opacity: 0.2 !important;
+    backdrop-filter: blur(4px) !important;
+    -webkit-backdrop-filter: blur(4px) !important;
+    z-index: -1 !important;
 }
 
 .t3s-glass-medium {
@@ -220,17 +218,17 @@
 }
 
 .t3s-glass-medium::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(45deg, #c7c7c7, #ffffff, #c7c7c7);
-    opacity: 0.5;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    z-index: -1;
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-image: linear-gradient(45deg, #c7c7c7, #ffffff, #c7c7c7) !important;
+    opacity: 0.5 !important;
+    backdrop-filter: blur(4px) !important;
+    -webkit-backdrop-filter: blur(4px) !important;
+    z-index: -1 !important;
 }
 
 .t3s-glass-heavy {
@@ -241,17 +239,17 @@
 }
 
 .t3s-glass-heavy::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(45deg, #c7c7c7, #ffffff, #c7c7c7);
-    opacity: 0.7;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    z-index: -1;
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-image: linear-gradient(45deg, #c7c7c7, #ffffff, #c7c7c7) !important;
+    opacity: 0.7 !important;
+    backdrop-filter: blur(4px) !important;
+    -webkit-backdrop-filter: blur(4px) !important;
+    z-index: -1 !important;
 }
 
 /* Toggle Switch */
@@ -285,30 +283,30 @@
 }
 
 .t3s-switch-slider:before {
-    position: absolute;
-    content: "";
-    height: 16px;
-    width: 16px;
-    left: 2px;
-    bottom: 2px;
-    background-color: darkgrey;
-    -webkit-transition: .4s;
-    transition: .4s;
-    border-radius: 50%;
+    position: absolute !important;
+    content: "" !important;
+    height: 16px !important;
+    width: 16px !important;
+    left: 2px !important;
+    bottom: 2px !important;
+    background-color: darkgrey !important;
+    -webkit-transition: .4s !important;
+    transition: .4s !important;
+    border-radius: 50% !important;
 }
 
 input:checked+.t3s-switch-slider {
-    background-color: dimgrey;
+    background-color: dimgrey !important;
 }
 
 input:focus+.t3s-switch-slider {
-    box-shadow: 0 0 1px black;
+    box-shadow: 0 0 1px black !important;
 }
 
 input:checked+.t3s-switch-slider:before {
-    -webkit-transform: translateX(20px);
-    -ms-transform: translateX(20px);
-    transform: translateX(20px);
+    -webkit-transform: translateX(20px) !important;
+    -ms-transform: translateX(20px) !important;
+    transform: translateX(20px) !important;
 }
 
 /* Check Box */
@@ -346,37 +344,37 @@ input:checked+.t3s-switch-slider:before {
 
 /* On mouse-over, add a grey background color */
 .t3s-checkbox:hover input~.t3s-checkmark {
-    background-color: grey;
+    background-color: grey !important;
 }
 
 /* When the checkbox is checked, add a blue background */
 .t3s-checkbox input:checked~.t3s-checkmark {
-    background-color: blue;
+    background-color: blue !important;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .t3s-checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
+    content: "" !important;
+    position: absolute !important;
+    display: none !important;
 }
 
 /* Show the checkmark when checked */
 .t3s-checkbox input:checked~.t3s-checkmark:after {
-    display: block;
+    display: block !important;
 }
 
 /* Style the checkmark/indicator */
 .t3s-checkbox .t3s-checkmark:after {
-    left: 6px;
-    top: 1px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+    left: 6px !important;
+    top: 1px !important;
+    width: 5px !important;
+    height: 10px !important;
+    border: solid white !important;
+    border-width: 0 3px 3px 0 !important;
+    -webkit-transform: rotate(45deg) !important;
+    -ms-transform: rotate(45deg) !important;
+    transform: rotate(45deg) !important;
 }
 
 /* Loader Classes */
@@ -507,13 +505,13 @@ input:checked+.t3s-switch-slider:before {
 }
 
 .t3s-hoverdrop-container:hover .t3s-hoverdrop-hidable {
-    display: flex;
+    display: flex !important;
 }
 
 .t3s-hoverdrop-button:hover + .t3s-hoverdrop-hidable {
-    display: flex;
+    display: flex !important;
 }
 
 .t3s-hoverdrop-hidable:hover {
-    display: flex;
+    display: flex !important;
 }

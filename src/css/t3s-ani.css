@@ -1,10 +1,9 @@
 /*
 *
 * T3S - Animation Classes
-* v0.1.1
+* v0.1.4
 *
 */
-
 /* Transform Classes */
 .t3s-transform-1 {
     transition: transform 100ms ease-in-out;
