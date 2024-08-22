@@ -1,8 +1,7 @@
 /*
 *
-* TechTB
 * T3S - Component Classes
-* v0.1.0
+* v0.1.1
 *
 */
 
@@ -45,19 +44,19 @@
 }
 
 .t3s-p-gap {
-    line-height: 1.5 !important;
+    line-height: 1.5;
 }
 
 .t3s-p-gap-2 {
-    line-height: 2 !important;
+    line-height: 2;
 }
 
 .t3s-p-gap-3 {
-    line-height: 3 !important;
+    line-height: 3;
 }
 
 .t3s-p-gap-4 {
-    line-height: 4 !important;
+    line-height: 4;
 }
 
 .t3s-button {
@@ -77,9 +76,9 @@
 }
 
 .t3s-button:disabled {
-    background-color: lightgray !important;
-    color: gray !important;
-    cursor: unset !important;
+    background-color: lightgray;
+    color: gray;
+    cursor: unset;
 }
 
 .t3s-button-nohover {
@@ -149,9 +148,9 @@
 }
 
 .t3s-button-simple:disabled {
-    background-color: lightgray !important;
-    color: gray !important;
-    cursor: unset !important;
+    background-color: lightgray;
+    color: gray;
+    cursor: unset;
 }
 
 .t3s-input {
@@ -508,5 +507,13 @@ input:checked+.t3s-switch-slider:before {
 }
 
 .t3s-hoverdrop-container:hover .t3s-hoverdrop-hidable {
+    display: flex;
+}
+
+.t3s-hoverdrop-button:hover + .t3s-hoverdrop-hidable {
+    display: flex;
+}
+
+.t3s-hoverdrop-hidable:hover {
     display: flex;
 }
