@@ -1,7 +1,7 @@
 /*
 *
 * T3S - Utility Classes
-* v0.1.4
+* v0.1.5
 *
 * T3S General Order
 *
@@ -1820,6 +1820,10 @@ id_ .t3s-pad-sides-12 {
     left: 16px;
 }
 
+.t3s-left-20 {
+    left: 20px;
+}
+
 .t3s-left-32 {
     left: 32px;
 }
@@ -1849,6 +1853,10 @@ id_ .t3s-pad-sides-12 {
 }
 
 .t3s-right-16 {
+    right: 16px;
+}
+
+.t3s-right-20 {
     right: 16px;
 }
 
