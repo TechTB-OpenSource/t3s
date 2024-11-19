@@ -122,125 +122,125 @@
 
 /* Animation Down */
 .t3s-ani_down_100 {
-    transition: ani_down_100p 100ms ease-in-out;
+    animation: ani_down_25p 100ms ease-in-out;
 }
 
 .t3s-ani_down_200 {
-    animation: ani_down_50p 200ms ease-in-out;
+    animation: ani_down_25p 200ms ease-in-out;
 }
 
 .t3s-ani_down_300 {
-    animation: ani_down_50p 300ms ease-in-out;
+    animation: ani_down_25p 300ms ease-in-out;
 }
 
 .t3s-ani_down_400 {
-    animation: ani_down_50p 400ms ease-in-out;
+    animation: ani_down_25p 400ms ease-in-out;
 }
 
 .t3s-ani_down_500 {
-    animation: ani_down_50p 500ms ease-in-out;
+    animation: ani_down_25p 500ms ease-in-out;
 }
 
 .t3s-ani_down_600 {
-    animation: ani_down_50p 600ms ease-in-out;
+    animation: ani_down_25p 600ms ease-in-out;
 }
 
 .t3s-ani_down_700 {
-    animation: ani_down_50p 700ms ease-in-out;
+    animation: ani_down_25p 700ms ease-in-out;
 }
 
 .t3s-ani_down_800 {
-    animation: ani_down_50p 800ms ease-in-out;
+    animation: ani_down_25p 800ms ease-in-out;
 }
 
 .t3s-ani_down_900 {
-    animation: ani_down_50p 900ms ease-in-out;
+    animation: ani_down_25p 900ms ease-in-out;
 }
 
 .t3s-ani_down_1000 {
-    animation: ani_down_50p 1s ease-in-out;
+    animation: ani_down_25p 1s ease-in-out;
 }
 
 /* Animation Up */
 .t3s-ani_up_100 {
-    animation: ani_up_50p 100ms ease-in-out;
+    animation: ani_up_25p 100ms ease-in-out;
 }
 
 .t3s-ani_up_200 {
-    animation: ani_up_50p 200ms ease-in-out;
+    animation: ani_up_25p 200ms ease-in-out;
 }
 
 .t3s-ani_up_300 {
-    animation: ani_up_50p 300ms ease-in-out;
+    animation: ani_up_25p 300ms ease-in-out;
 }
 
 .t3s-ani_up_400 {
-    animation: ani_up_50p 400ms ease-in-out;
+    animation: ani_up_25p 400ms ease-in-out;
 }
 
 .t3s-ani_up_500 {
-    animation: ani_up_50p 500ms ease-in-out;
+    animation: ani_up_25p 500ms ease-in-out;
 }
 
 .t3s-ani_up_600 {
-    animation: ani_up_50p 600ms ease-in-out;
+    animation: ani_up_25p 600ms ease-in-out;
 }
 
 .t3s-ani_up_700 {
-    animation: ani_up_50p 700ms ease-in-out;
+    animation: ani_up_25p 700ms ease-in-out;
 }
 
 .t3s-ani_up_800 {
-    animation: ani_up_50p 800ms ease-in-out;
+    animation: ani_up_25p 800ms ease-in-out;
 }
 
 .t3s-ani_up_900 {
-    animation: ani_up_50p 900ms ease-in-out;
+    animation: ani_up_25p 900ms ease-in-out;
 }
 
 .t3s-ani_up_1000 {
-    animation: ani_up_50p 1s ease-in-out;
+    animation: ani_up_25p 1s ease-in-out;
 }
 
 /* Animation Right */
 .t3s-ani_right_100 {
-    animation: ani_right_50p 100ms ease-in-out;
+    animation: ani_right_25p 100ms ease-in-out;
 }
 
 .t3s-ani_right_200 {
-    animation: ani_right_50p 200ms ease-in-out;
+    animation: ani_right_25p 200ms ease-in-out;
 }
 
 .t3s-ani_right_300 {
-    animation: ani_right_50p 300ms ease-in-out;
+    animation: ani_right_25p 300ms ease-in-out;
 }
 
 .t3s-ani_right_400 {
-    animation: ani_right_50p 400ms ease-in-out;
+    animation: ani_right_25p 400ms ease-in-out;
 }
 
 .t3s-ani_right_500 {
-    animation: ani_right_50p 500ms ease-in-out;
+    animation: ani_right_25p 500ms ease-in-out;
 }
 
 .t3s-ani_right_600 {
-    animation: ani_right_50p 600ms ease-in-out;
+    animation: ani_right_25p 600ms ease-in-out;
 }
 
 .t3s-ani_right_700 {
-    animation: ani_right_50p 700ms ease-in-out;
+    animation: ani_right_25p 700ms ease-in-out;
 }
 
 .t3s-ani_right_800 {
-    animation: ani_right_50p 800ms ease-in-out;
+    animation: ani_right_25p 800ms ease-in-out;
 }
 
 .t3s-ani_right_900 {
-    animation: ani_right_50p 900ms ease-in-out;
+    animation: ani_right_25p 900ms ease-in-out;
 }
 
 .t3s-ani_right_1000 {
-    animation: ani_right_50p 1s ease-in-out;
+    animation: ani_right_25p 1s ease-in-out;
 }
 
 /* Animation Left */
