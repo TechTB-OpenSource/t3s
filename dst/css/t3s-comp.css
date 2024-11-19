@@ -4,73 +4,16 @@
 * v0.1.5
 *
 */
-.t3s-ul {
-    margin-top: 8px;
-    margin-bottom: 8px;
-    list-style: disc;
-}
 
-.t3s-ul li {
-    padding-top: 8px;
-}
-
-.t3s-ul-circle {
-    margin-top: 8px;
-    margin-bottom: 8px;
-    list-style: circle;
-}
-
-.t3s-ul-circle li {
-    padding-top: 8px;
-}
-
-.t3s-bar {
-    width: 100%;
-    overflow: hidden;
-}
-
-.t3s-header {
-    width: 100%;
-    top: 0px;
-    position: fixed;
-}
-
-.t3s-footer {
-    width: 100%;
-    bottom: 0px;
-    position: fixed;
-    overflow: hidden;
-}
-
-.t3s-p-gap {
-    line-height: 1.5;
-}
-
-.t3s-p-gap-2 {
-    line-height: 2;
-}
-
-.t3s-p-gap-3 {
-    line-height: 3;
-}
-
-.t3s-p-gap-4 {
-    line-height: 4;
-}
-
+/* Buttons/Inputs */
 .t3s-button {
-    padding: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none;
-    font-weight: bold;
+    border: unset;
     overflow: hidden;
     cursor: pointer;
-    text-decoration: none;
-    background-color: unset;
+    text-decoration: unset;
     color: inherit;
 }
 
@@ -80,94 +23,17 @@
     cursor: unset !important;
 }
 
-.t3s-button-nohover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    overflow: hidden;
-    cursor: pointer;
-    text-decoration: none;
-    background-color: unset;
-    color: inherit;
-}
-
-.t3s-button-menu {
-    width: -webkit-fill-available;
-    width: -moz-available;
-    width: fill-available;
-    padding: 16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    border: none;
-    overflow: hidden;
-    cursor: pointer;
-    text-decoration: none;
-    background-color: unset;
-    color: inherit;
-}
-
-.t3s-button-menu:disabled {
-    background-color: lightgray !important;
-    color: gray !important;
-    cursor: unset !important;
-}
-
-.site-button-header {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    font-weight: bold;
-    overflow: hidden;
-    cursor: pointer;
-    text-decoration: none;
-    background-color: unset;
-    color: inherit;
-}
-
-.site-button-header:disabled {
-    background-color: lightgray !important;
-    color: gray !important;
-    cursor: unset !important;
-}
-
-.t3s-button-simple {
-    border: none;
-    overflow: hidden;
-    cursor: pointer;
-    text-decoration: none;
-    color: inherit;
-    background-color: inherit;
-}
-
-.t3s-button-simple:disabled {
-    background-color: lightgray !important;
-    color: gray !important;
-    cursor: unset !important;
-}
-
 .t3s-input {
-    padding: 8px;
-    border: none;
-    outline: none;
-}
-
-.t3s-input-clean {
-    padding: 8px;
-    border: none;
-    outline: none;
-    -webkit-appearance: textfield;
+    border: unset;
+    outline: unset;
     appearance: textfield;
 }
 
+/* Modal*/
 .t3s-modal-background {
     position: fixed;
     top: 0px;
+    left: 0px;
     height: 100%;
     width: 100%;
     background-color: rgba(169, 169, 169, .7);
@@ -176,19 +42,31 @@
 .t3s-modal-background-clear {
     position: fixed;
     top: 0px;
+    left: 0px;
     height: 100%;
     width: 100%;
+    background-color: unset;
+}
+
+.t3s-modal-background-light {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(169, 169, 169, .5);
 }
 
 .t3s-modal-background-dark {
     position: fixed;
     top: 0px;
+    left: 0px;
     height: 100%;
     width: 100%;
     background-color: rgba(169, 169, 169, .9);
-    z-index: 900;
 }
 
+/* Glass */
 .t3s-glass-light {
     position: relative;
     border: 1px solid rgba(255, 255, 255, .3);
@@ -378,94 +256,10 @@ input:checked+.t3s-switch-slider:before {
 }
 
 /* Loader Classes */
-.t3s-loader-black {
+.t3s-loader {
     border: 8px solid gainsboro;
     border-radius: 50%;
     border-top: 8px solid black;
-    width: 64px;
-    height: 64px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-    position: absolute;
-    z-index: 910;
-}
-
-.t3s-loader-white {
-    border: 8px solid gainsboro;
-    border-radius: 50%;
-    border-top: 8px solid white;
-    width: 64px;
-    height: 64px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-    position: absolute;
-    z-index: 910;
-}
-
-.t3s-loader-purple {
-    border: 8px solid gainsboro;
-    border-radius: 50%;
-    border-top: 8px solid purple;
-    width: 64px;
-    height: 64px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-    position: absolute;
-    z-index: 910;
-}
-
-.t3s-loader-blue {
-    border: 8px solid gainsboro;
-    border-radius: 50%;
-    border-top: 8px solid blue;
-    width: 64px;
-    height: 64px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-    position: absolute;
-    z-index: 910;
-}
-
-.t3s-loader-green {
-    border: 8px solid gainsboro;
-    border-radius: 50%;
-    border-top: 8px solid green;
-    width: 64px;
-    height: 64px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-    position: absolute;
-    z-index: 910;
-}
-
-.t3s-loader-yellow {
-    border: 8px solid gainsboro;
-    border-radius: 50%;
-    border-top: 8px solid yellow;
-    width: 64px;
-    height: 64px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-    position: absolute;
-    z-index: 910;
-}
-
-.t3s-loader-orange {
-    border: 8px solid gainsboro;
-    border-radius: 50%;
-    border-top: 8px solid orange;
-    width: 64px;
-    height: 64px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-    position: absolute;
-    z-index: 910;
-}
-
-.t3s-loader-red {
-    border: 8px solid gainsboro;
-    border-radius: 50%;
-    border-top: 8px solid red;
     width: 64px;
     height: 64px;
     -webkit-animation: spin 2s linear infinite;
