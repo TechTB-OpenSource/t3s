@@ -1,0 +1,28 @@
+* {
+    margin: unset;
+    padding: unset;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+a {
+    font-size: inherit;
+    text-decoration: unset;
+}
+input {
+    font-size: inherit;
+}
+
+textarea {
+    font-family: inherit;
+}
+
+button {
+    border: unset;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: unset;
+}
