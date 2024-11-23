@@ -1,28 +1,34 @@
 * {
-    margin: unset;
-    padding: unset;
     box-sizing: border-box;
 }
 
-body {
-    height: 100%;
+html,
+body,
+h1,
+h2,
+h3,
+p,
+a {
+    margin: unset;
+    padding: unset;
 }
 
 a {
     font-size: inherit;
     text-decoration: unset;
 }
-input {
+
+input,
+button,
+textarea,
+select {
+    margin: unset;
+    padding: unset;
     font-size: inherit;
-}
-
-textarea {
-    font-family: inherit;
-}
-
-button {
     border: unset;
-    overflow: hidden;
-    cursor: pointer;
+    outline: unset;
+    background-color: unset;
+    border-radius: unset;
     text-decoration: unset;
+    overflow: hidden;
 }
