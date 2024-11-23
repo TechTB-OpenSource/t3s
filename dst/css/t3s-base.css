@@ -18,6 +18,12 @@ a {
     text-decoration: unset;
 }
 
+ol,
+ul,
+li {
+    margin: unset;
+}
+
 input,
 button,
 textarea,
