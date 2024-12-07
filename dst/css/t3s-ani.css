@@ -45,6 +45,22 @@
     transition: transform 1s ease-in-out;
 }
 
+.t3s-transform-2 {
+    transition: transform 2s ease-in-out;
+}
+
+.t3s-transform-3 {
+    transition: transform 3s ease-in-out;
+}
+
+.t3s-transform-4 {
+    transition: transform 4s ease-in-out;
+}
+
+.t3s-transform-5 {
+    transition: transform 5s ease-in-out;
+}
+
 /* Transition Height */
 .t3s-tran_h_100 {
     transition: height 100ms ease-in-out;
@@ -70,6 +86,22 @@
     transition: height 1s ease-in-out;
 }
 
+.t3s-tran_h_2 {
+    transition: height 2s ease-in-out;
+}
+
+.t3s-tran_h_3 {
+    transition: height 3s ease-in-out;
+}
+
+.t3s-tran_h_4 {
+    transition: height 4s ease-in-out;
+}
+
+.t3s-tran_h_5 {
+    transition: height 5s ease-in-out;
+}
+
 /* Transition Width */
 .t3s-tran_w_100 {
     transition: width 100ms ease-in-out;
@@ -91,8 +123,20 @@
     transition: width 500ms ease-in-out;
 }
 
-.t3s-tran_w_1 {
-    transition: width 1s ease-in-out;
+.t3s-tran_w_2 {
+    transition: width 2s ease-in-out;
+}
+
+.t3s-tran_w_3 {
+    transition: width 3s ease-in-out;
+}
+
+.t3s-tran_w_4 {
+    transition: width 4s ease-in-out;
+}
+
+.t3s-tran_w_5 {
+    transition: width 5s ease-in-out;
 }
 
 /* Transition Opacity */
@@ -118,6 +162,22 @@
 
 .t3s-tran_op_1 {
     transition: opacity 1s ease-in-out;
+}
+
+.t3s-tran_op_2 {
+    transition: opacity 2s ease-in-out;
+}
+
+.t3s-tran_op_3 {
+    transition: opacity 3s ease-in-out;
+}
+
+.t3s-tran_op_4 {
+    transition: opacity 4s ease-in-out;
+}
+
+.t3s-tran_op_5 {
+    transition: opacity 5s ease-in-out;
 }
 
 /* Animation Down */
