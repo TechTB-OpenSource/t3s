@@ -38,3 +38,7 @@ select {
     text-decoration: unset;
     overflow: hidden;
 }
+
+button {
+    cursor: pointer;
+}
