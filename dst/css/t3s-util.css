@@ -2463,15 +2463,6 @@
     border-width: 16px;
 }
 
-/* Border Misc */
-.t3s-borderless {
-    border: none;
-}
-
-.t3s-outlineless {
-    outline: none;
-}
-
 /* Border Color */
 .t3s-borderclr-white {
     border-color: white;
@@ -2483,6 +2474,15 @@
 
 .t3s-borderclr-black {
     border-color: black;
+}
+
+/* Border Misc */
+.t3s-borderless {
+    border: none;
+}
+
+.t3s-outlineless {
+    outline: none;
 }
 
 /* Border-Radius */
