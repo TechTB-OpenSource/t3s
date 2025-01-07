@@ -4,6 +4,25 @@
 * v0.2.0
 *
 */
+
+
+/* Transform Rotate */
+.t3s-rotate-360 {
+    transform: rotate(180deg);
+}
+
+.t3s-rotate-270 {
+    transform: rotate(270deg);
+}
+
+.t3s-rotate-180 {
+    transform: rotate(180deg);
+}
+
+.t3s-rotate-90 {
+    transform: rotate(90deg);
+}
+
 /* Transition Transform */
 .t3s-transform-100 {
     transition: transform 100ms ease-in-out;
@@ -62,499 +81,499 @@
 }
 
 /* Transition Height */
-.t3s-tran_h_100 {
+.t3s-tran-h-100 {
     transition: height 100ms ease-in-out;
 }
 
-.t3s-tran_h_200 {
+.t3s-tran-h-200 {
     transition: height 200ms ease-in-out;
 }
 
-.t3s-tran_h_300 {
+.t3s-tran-h-300 {
     transition: height 300ms ease-in-out;
 }
 
-.t3s-tran_h_400 {
+.t3s-tran-h-400 {
     transition: height 400ms ease-in-out;
 }
 
-.t3s-tran_h_500 {
+.t3s-tran-h-500 {
     transition: height 500ms ease-in-out;
 }
 
-.t3s-tran_h_1 {
+.t3s-tran-h-1 {
     transition: height 1s ease-in-out;
 }
 
-.t3s-tran_h_2 {
+.t3s-tran-h-2 {
     transition: height 2s ease-in-out;
 }
 
-.t3s-tran_h_3 {
+.t3s-tran-h-3 {
     transition: height 3s ease-in-out;
 }
 
-.t3s-tran_h_4 {
+.t3s-tran-h-4 {
     transition: height 4s ease-in-out;
 }
 
-.t3s-tran_h_5 {
+.t3s-tran-h-5 {
     transition: height 5s ease-in-out;
 }
 
 /* Transition Width */
-.t3s-tran_w_100 {
+.t3s-tran-w-100 {
     transition: width 100ms ease-in-out;
 }
 
-.t3s-tran_w_200 {
+.t3s-tran-w-200 {
     transition: width 200ms ease-in-out;
 }
 
-.t3s-tran_w_300 {
+.t3s-tran-w-300 {
     transition: width 300ms ease-in-out;
 }
 
-.t3s-tran_w_400 {
+.t3s-tran-w-400 {
     transition: width 400ms ease-in-out;
 }
 
-.t3s-tran_w_500 {
+.t3s-tran-w-500 {
     transition: width 500ms ease-in-out;
 }
 
-.t3s-tran_w_2 {
+.t3s-tran-w-2 {
     transition: width 2s ease-in-out;
 }
 
-.t3s-tran_w_3 {
+.t3s-tran-w-3 {
     transition: width 3s ease-in-out;
 }
 
-.t3s-tran_w_4 {
+.t3s-tran-w-4 {
     transition: width 4s ease-in-out;
 }
 
-.t3s-tran_w_5 {
+.t3s-tran-w-5 {
     transition: width 5s ease-in-out;
 }
 
 /* Transition Opacity */
-.t3s-tran_op_100 {
+.t3s-tran-op-100 {
     transition: opacity 100ms ease-in-out;
 }
 
-.t3s-tran_op_200 {
+.t3s-tran-op-200 {
     transition: opacity 200ms ease-in-out;
 }
 
-.t3s-tran_op_300 {
+.t3s-tran-op-300 {
     transition: opacity 300ms ease-in-out;
 }
 
-.t3s-tran_op_400 {
+.t3s-tran-op-400 {
     transition: opacity 400ms ease-in-out;
 }
 
-.t3s-tran_op_500 {
+.t3s-tran-op-500 {
     transition: opacity 500ms ease-in-out;
 }
 
-.t3s-tran_op_1 {
+.t3s-tran-op-1 {
     transition: opacity 1s ease-in-out;
 }
 
-.t3s-tran_op_2 {
+.t3s-tran-op-2 {
     transition: opacity 2s ease-in-out;
 }
 
-.t3s-tran_op_3 {
+.t3s-tran-op-3 {
     transition: opacity 3s ease-in-out;
 }
 
-.t3s-tran_op_4 {
+.t3s-tran-op-4 {
     transition: opacity 4s ease-in-out;
 }
 
-.t3s-tran_op_5 {
+.t3s-tran-op-5 {
     transition: opacity 5s ease-in-out;
 }
 
 /* Animation Down */
-.t3s-ani_down_100 {
-    animation: ani_down_25p 100ms ease-in-out;
+.t3s-ani-down-100 {
+    animation: ani-down-25p 100ms ease-in-out;
 }
 
-.t3s-ani_down_200 {
-    animation: ani_down_25p 200ms ease-in-out;
+.t3s-ani-down-200 {
+    animation: ani-down-25p 200ms ease-in-out;
 }
 
-.t3s-ani_down_300 {
-    animation: ani_down_25p 300ms ease-in-out;
+.t3s-ani-down-300 {
+    animation: ani-down-25p 300ms ease-in-out;
 }
 
-.t3s-ani_down_400 {
-    animation: ani_down_25p 400ms ease-in-out;
+.t3s-ani-down-400 {
+    animation: ani-down-25p 400ms ease-in-out;
 }
 
-.t3s-ani_down_500 {
-    animation: ani_down_25p 500ms ease-in-out;
+.t3s-ani-down-500 {
+    animation: ani-down-25p 500ms ease-in-out;
 }
 
-.t3s-ani_down_600 {
-    animation: ani_down_25p 600ms ease-in-out;
+.t3s-ani-down-600 {
+    animation: ani-down-25p 600ms ease-in-out;
 }
 
-.t3s-ani_down_700 {
-    animation: ani_down_25p 700ms ease-in-out;
+.t3s-ani-down-700 {
+    animation: ani-down-25p 700ms ease-in-out;
 }
 
-.t3s-ani_down_800 {
-    animation: ani_down_25p 800ms ease-in-out;
+.t3s-ani-down-800 {
+    animation: ani-down-25p 800ms ease-in-out;
 }
 
-.t3s-ani_down_900 {
-    animation: ani_down_25p 900ms ease-in-out;
+.t3s-ani-down-900 {
+    animation: ani-down-25p 900ms ease-in-out;
 }
 
-.t3s-ani_down_1000 {
-    animation: ani_down_25p 1s ease-in-out;
+.t3s-ani-down-1000 {
+    animation: ani-down-25p 1s ease-in-out;
 }
 
-.t3s-ani_down_100p_100 {
-    animation: ani_down_100p 100ms ease-in-out;
+.t3s-ani-down-100p-100 {
+    animation: ani-down-100p 100ms ease-in-out;
 }
 
-.t3s-ani_down_100p_200 {
-    animation: ani_down_100p 200ms ease-in-out;
+.t3s-ani-down-100p-200 {
+    animation: ani-down-100p 200ms ease-in-out;
 }
 
-.t3s-ani_down_100p_300 {
-    animation: ani_down_100p 300ms ease-in-out;
+.t3s-ani-down-100p-300 {
+    animation: ani-down-100p 300ms ease-in-out;
 }
 
-.t3s-ani_down_100p_400 {
-    animation: ani_down_100p 400ms ease-in-out;
+.t3s-ani-down-100p-400 {
+    animation: ani-down-100p 400ms ease-in-out;
 }
 
-.t3s-ani_down_100p_500 {
-    animation: ani_down_100p 500ms ease-in-out;
+.t3s-ani-down-100p-500 {
+    animation: ani-down-100p 500ms ease-in-out;
 }
 
-.t3s-ani_down_100p_600 {
-    animation: ani_down_100p 600ms ease-in-out;
+.t3s-ani-down-100p-600 {
+    animation: ani-down-100p 600ms ease-in-out;
 }
 
-.t3s-ani_down_100p_700 {
-    animation: ani_down_100p 700ms ease-in-out;
+.t3s-ani-down-100p-700 {
+    animation: ani-down-100p 700ms ease-in-out;
 }
 
-.t3s-ani_down_100p_800 {
-    animation: ani_down_100p 800ms ease-in-out;
+.t3s-ani-down-100p-800 {
+    animation: ani-down-100p 800ms ease-in-out;
 }
 
-.t3s-ani_down_100p_900 {
-    animation: ani_down_100p 900ms ease-in-out;
+.t3s-ani-down-100p-900 {
+    animation: ani-down-100p 900ms ease-in-out;
 }
 
-.t3s-ani_down_100p_1000 {
-    animation: ani_down_100p 1s ease-in-out;
+.t3s-ani-down-100p-1000 {
+    animation: ani-down-100p 1s ease-in-out;
 }
 
 /* Animation Up */
-.t3s-ani_up_100 {
-    animation: ani_up_25p 100ms ease-in-out;
+.t3s-ani-up-100 {
+    animation: ani-up-25p 100ms ease-in-out;
 }
 
-.t3s-ani_up_200 {
-    animation: ani_up_25p 200ms ease-in-out;
+.t3s-ani-up-200 {
+    animation: ani-up-25p 200ms ease-in-out;
 }
 
-.t3s-ani_up_300 {
-    animation: ani_up_25p 300ms ease-in-out;
+.t3s-ani-up-300 {
+    animation: ani-up-25p 300ms ease-in-out;
 }
 
-.t3s-ani_up_400 {
-    animation: ani_up_25p 400ms ease-in-out;
+.t3s-ani-up-400 {
+    animation: ani-up-25p 400ms ease-in-out;
 }
 
-.t3s-ani_up_500 {
-    animation: ani_up_25p 500ms ease-in-out;
+.t3s-ani-up-500 {
+    animation: ani-up-25p 500ms ease-in-out;
 }
 
-.t3s-ani_up_600 {
-    animation: ani_up_25p 600ms ease-in-out;
+.t3s-ani-up-600 {
+    animation: ani-up-25p 600ms ease-in-out;
 }
 
-.t3s-ani_up_700 {
-    animation: ani_up_25p 700ms ease-in-out;
+.t3s-ani-up-700 {
+    animation: ani-up-25p 700ms ease-in-out;
 }
 
-.t3s-ani_up_800 {
-    animation: ani_up_25p 800ms ease-in-out;
+.t3s-ani-up-800 {
+    animation: ani-up-25p 800ms ease-in-out;
 }
 
-.t3s-ani_up_900 {
-    animation: ani_up_25p 900ms ease-in-out;
+.t3s-ani-up-900 {
+    animation: ani-up-25p 900ms ease-in-out;
 }
 
-.t3s-ani_up_1000 {
-    animation: ani_up_25p 1s ease-in-out;
+.t3s-ani-up-1000 {
+    animation: ani-up-25p 1s ease-in-out;
 }
 
-.t3s-ani_up_100p_100 {
-    animation: ani_up_100p 100ms ease-in-out;
+.t3s-ani-up-100p-100 {
+    animation: ani-up-100p 100ms ease-in-out;
 }
 
-.t3s-ani_up_100p_200 {
-    animation: ani_up_100p 200ms ease-in-out;
+.t3s-ani-up-100p-200 {
+    animation: ani-up-100p 200ms ease-in-out;
 }
 
-.t3s-ani_up_100p_300 {
-    animation: ani_up_100p 300ms ease-in-out;
+.t3s-ani-up-100p-300 {
+    animation: ani-up-100p 300ms ease-in-out;
 }
 
-.t3s-ani_up_100p_400 {
-    animation: ani_up_100p 400ms ease-in-out;
+.t3s-ani-up-100p-400 {
+    animation: ani-up-100p 400ms ease-in-out;
 }
 
-.t3s-ani_up_100p_500 {
-    animation: ani_up_100p 500ms ease-in-out;
+.t3s-ani-up-100p-500 {
+    animation: ani-up-100p 500ms ease-in-out;
 }
 
-.t3s-ani_up_100p_600 {
-    animation: ani_up_100p 600ms ease-in-out;
+.t3s-ani-up-100p-600 {
+    animation: ani-up-100p 600ms ease-in-out;
 }
 
-.t3s-ani_up_100p_700 {
-    animation: ani_up_100p 700ms ease-in-out;
+.t3s-ani-up-100p-700 {
+    animation: ani-up-100p 700ms ease-in-out;
 }
 
-.t3s-ani_up_100p_800 {
-    animation: ani_up_100p 800ms ease-in-out;
+.t3s-ani-up-100p-800 {
+    animation: ani-up-100p 800ms ease-in-out;
 }
 
-.t3s-ani_up_100p_900 {
-    animation: ani_up_100p 900ms ease-in-out;
+.t3s-ani-up-100p-900 {
+    animation: ani-up-100p 900ms ease-in-out;
 }
 
-.t3s-ani_up_100p_1000 {
-    animation: ani_up_100p 1s ease-in-out;
+.t3s-ani-up-100p-1000 {
+    animation: ani-up-100p 1s ease-in-out;
 }
 
 /* Animation Right */
-.t3s-ani_right_100 {
-    animation: ani_right_25p 100ms ease-in-out;
+.t3s-ani-right-100 {
+    animation: ani-right-25p 100ms ease-in-out;
 }
 
-.t3s-ani_right_200 {
-    animation: ani_right_25p 200ms ease-in-out;
+.t3s-ani-right-200 {
+    animation: ani-right-25p 200ms ease-in-out;
 }
 
-.t3s-ani_right_300 {
-    animation: ani_right_25p 300ms ease-in-out;
+.t3s-ani-right-300 {
+    animation: ani-right-25p 300ms ease-in-out;
 }
 
-.t3s-ani_right_400 {
-    animation: ani_right_25p 400ms ease-in-out;
+.t3s-ani-right-400 {
+    animation: ani-right-25p 400ms ease-in-out;
 }
 
-.t3s-ani_right_500 {
-    animation: ani_right_25p 500ms ease-in-out;
+.t3s-ani-right-500 {
+    animation: ani-right-25p 500ms ease-in-out;
 }
 
-.t3s-ani_right_600 {
-    animation: ani_right_25p 600ms ease-in-out;
+.t3s-ani-right-600 {
+    animation: ani-right-25p 600ms ease-in-out;
 }
 
-.t3s-ani_right_700 {
-    animation: ani_right_25p 700ms ease-in-out;
+.t3s-ani-right-700 {
+    animation: ani-right-25p 700ms ease-in-out;
 }
 
-.t3s-ani_right_800 {
-    animation: ani_right_25p 800ms ease-in-out;
+.t3s-ani-right-800 {
+    animation: ani-right-25p 800ms ease-in-out;
 }
 
-.t3s-ani_right_900 {
-    animation: ani_right_25p 900ms ease-in-out;
+.t3s-ani-right-900 {
+    animation: ani-right-25p 900ms ease-in-out;
 }
 
-.t3s-ani_right_1000 {
-    animation: ani_right_25p 1s ease-in-out;
+.t3s-ani-right-1000 {
+    animation: ani-right-25p 1s ease-in-out;
 }
 
-.t3s-ani_right_100p_100 {
-    animation: ani_right_100p 100ms ease-in-out;
+.t3s-ani-right-100p-100 {
+    animation: ani-right-100p 100ms ease-in-out;
 }
 
-.t3s-ani_right_100p_200 {
-    animation: ani_right_100p 200ms ease-in-out;
+.t3s-ani-right-100p-200 {
+    animation: ani-right-100p 200ms ease-in-out;
 }
 
-.t3s-ani_right_100p_300 {
-    animation: ani_right_100p 300ms ease-in-out;
+.t3s-ani-right-100p-300 {
+    animation: ani-right-100p 300ms ease-in-out;
 }
 
-.t3s-ani_right_100p_400 {
-    animation: ani_right_100p 400ms ease-in-out;
+.t3s-ani-right-100p-400 {
+    animation: ani-right-100p 400ms ease-in-out;
 }
 
-.t3s-ani_right_100p_500 {
-    animation: ani_right_100p 500ms ease-in-out;
+.t3s-ani-right-100p-500 {
+    animation: ani-right-100p 500ms ease-in-out;
 }
 
-.t3s-ani_right_100p_600 {
-    animation: ani_right_100p 600ms ease-in-out;
+.t3s-ani-right-100p-600 {
+    animation: ani-right-100p 600ms ease-in-out;
 }
 
-.t3s-ani_right_100p_700 {
-    animation: ani_right_100p 700ms ease-in-out;
+.t3s-ani-right-100p-700 {
+    animation: ani-right-100p 700ms ease-in-out;
 }
 
-.t3s-ani_right_100p_800 {
-    animation: ani_right_100p 800ms ease-in-out;
+.t3s-ani-right-100p-800 {
+    animation: ani-right-100p 800ms ease-in-out;
 }
 
-.t3s-ani_right_100p_900 {
-    animation: ani_right_100p 900ms ease-in-out;
+.t3s-ani-right-100p-900 {
+    animation: ani-right-100p 900ms ease-in-out;
 }
 
-.t3s-ani_right_100p_1000 {
-    animation: ani_right_100p 1s ease-in-out;
+.t3s-ani-right-100p-1000 {
+    animation: ani-right-100p 1s ease-in-out;
 }
 
 /* Animation Left */
-.t3s-ani_left_100 {
-    animation: ani_left_25p 100ms ease-in-out;
+.t3s-ani-left-100 {
+    animation: ani-left-25p 100ms ease-in-out;
 }
 
-.t3s-ani_left_200 {
-    animation: ani_left_25p 200ms ease-in-out;
+.t3s-ani-left-200 {
+    animation: ani-left-25p 200ms ease-in-out;
 }
 
-.t3s-ani_left_300 {
-    animation: ani_left_25p 300ms ease-in-out;
+.t3s-ani-left-300 {
+    animation: ani-left-25p 300ms ease-in-out;
 }
 
-.t3s-ani_left_400 {
-    animation: ani_left_25p 400ms ease-in-out;
+.t3s-ani-left-400 {
+    animation: ani-left-25p 400ms ease-in-out;
 }
 
-.t3s-ani_left_500 {
-    animation: ani_left_25p 500ms ease-in-out;
+.t3s-ani-left-500 {
+    animation: ani-left-25p 500ms ease-in-out;
 }
 
-.t3s-ani_left_600 {
-    animation: ani_left_25p 600ms ease-in-out;
+.t3s-ani-left-600 {
+    animation: ani-left-25p 600ms ease-in-out;
 }
 
-.t3s-ani_left_700 {
-    animation: ani_left_25p 700ms ease-in-out;
+.t3s-ani-left-700 {
+    animation: ani-left-25p 700ms ease-in-out;
 }
 
-.t3s-ani_left_800 {
-    animation: ani_left_25p 800ms ease-in-out;
+.t3s-ani-left-800 {
+    animation: ani-left-25p 800ms ease-in-out;
 }
 
-.t3s-ani_left_900 {
-    animation: ani_left_25p 900ms ease-in-out;
+.t3s-ani-left-900 {
+    animation: ani-left-25p 900ms ease-in-out;
 }
 
-.t3s-ani_left_1000 {
-    animation: ani_left_25p 1s ease-in-out;
+.t3s-ani-left-1000 {
+    animation: ani-left-25p 1s ease-in-out;
 }
 
-.t3s-ani_left_100p_100 {
-    animation: ani_left_100p 100ms ease-in-out;
+.t3s-ani-left-100p-100 {
+    animation: ani-left-100p 100ms ease-in-out;
 }
 
-.t3s-ani_left_100p_200 {
-    animation: ani_left_100p 200ms ease-in-out;
+.t3s-ani-left-100p-200 {
+    animation: ani-left-100p 200ms ease-in-out;
 }
 
-.t3s-ani_left_100p_300 {
-    animation: ani_left_100p 300ms ease-in-out;
+.t3s-ani-left-100p-300 {
+    animation: ani-left-100p 300ms ease-in-out;
 }
 
-.t3s-ani_left_100p_400 {
-    animation: ani_left_100p 400ms ease-in-out;
+.t3s-ani-left-100p-400 {
+    animation: ani-left-100p 400ms ease-in-out;
 }
 
-.t3s-ani_left_100p_500 {
-    animation: ani_left_100p 500ms ease-in-out;
+.t3s-ani-left-100p-500 {
+    animation: ani-left-100p 500ms ease-in-out;
 }
 
-.t3s-ani_left_100p_600 {
-    animation: ani_left_100p 600ms ease-in-out;
+.t3s-ani-left-100p-600 {
+    animation: ani-left-100p 600ms ease-in-out;
 }
 
-.t3s-ani_left_100p_700 {
-    animation: ani_left_100p 700ms ease-in-out;
+.t3s-ani-left-100p-700 {
+    animation: ani-left-100p 700ms ease-in-out;
 }
 
-.t3s-ani_left_100p_800 {
-    animation: ani_left_100p 800ms ease-in-out;
+.t3s-ani-left-100p-800 {
+    animation: ani-left-100p 800ms ease-in-out;
 }
 
-.t3s-ani_left_100p_900 {
-    animation: ani_left_100p 900ms ease-in-out;
+.t3s-ani-left-100p-900 {
+    animation: ani-left-100p 900ms ease-in-out;
 }
 
-.t3s-ani_left_100p_1000 {
-    animation: ani_left_100p 1s ease-in-out;
+.t3s-ani-left-100p-1000 {
+    animation: ani-left-100p 1s ease-in-out;
 }
 
 /* Animation Spin */
-.t3s-ani_spin_360_100 {
-    animation: spin_360 100ms ease-in-out;
+.t3s-ani-spin-360-100 {
+    animation: spin-360 100ms ease-in-out;
 }
 
-.t3s-ani_spin_360_300 {
-    animation: spin_360 300ms ease-in-out;
+.t3s-ani-spin-360-300 {
+    animation: spin-360 300ms ease-in-out;
 }
 
-.t3s-ani_spin_360_500 {
-    animation: spin_360 500ms ease-in-out;
+.t3s-ani-spin-360-500 {
+    animation: spin-360 500ms ease-in-out;
 }
 
-.t3s-ani_spin_270_100 {
-    animation: spin_270 100ms ease-in-out;
+.t3s-ani-spin-270-100 {
+    animation: spin-270 100ms ease-in-out;
 }
 
-.t3s-ani_spin_270_300 {
-    animation: spin_270 300ms ease-in-out;
+.t3s-ani-spin-270-300 {
+    animation: spin-270 300ms ease-in-out;
 }
 
-.t3s-ani_spin_270_500 {
-    animation: spin_270 500ms ease-in-out;
+.t3s-ani-spin-270-500 {
+    animation: spin-270 500ms ease-in-out;
 }
 
-.t3s-ani_spin_180_100 {
-    animation: spin_180 100ms ease-in-out;
+.t3s-ani-spin-180-100 {
+    animation: spin-180 100ms ease-in-out;
 }
 
-.t3s-ani_spin_180_300 {
-    animation: spin_180 300ms ease-in-out;
+.t3s-ani-spin-180-300 {
+    animation: spin-180 300ms ease-in-out;
 }
 
-.t3s-ani_spin_180_500 {
-    animation: spin_180 500ms ease-in-out;
+.t3s-ani-spin-180-500 {
+    animation: spin-180 500ms ease-in-out;
 }
 
-.t3s-ani_spin_90_100 {
-    animation: spin_90 100ms ease-in-out;
+.t3s-ani-spin-90-100 {
+    animation: spin-90 100ms ease-in-out;
 }
 
-.t3s-ani_spin_90_300 {
-    animation: spin_90 300ms ease-in-out;
+.t3s-ani-spin-90-300 {
+    animation: spin-90 300ms ease-in-out;
 }
 
-.t3s-ani_spin_90_500 {
-    animation: spin_90 500ms ease-in-out;
+.t3s-ani-spin-90-500 {
+    animation: spin-90 500ms ease-in-out;
 }
 
 /* Keyframes Down */
-@keyframes ani_down_100p {
+@keyframes ani-down-100p {
     0% {
         transform: translateY(-100%);
     }
@@ -564,7 +583,7 @@
     }
 }
 
-@keyframes ani_down_75p {
+@keyframes ani-down-75p {
     0% {
         transform: translateY(-75%);
     }
@@ -574,7 +593,7 @@
     }
 }
 
-@keyframes ani_down_50p {
+@keyframes ani-down-50p {
     0% {
         transform: translateY(-50%);
     }
@@ -584,7 +603,7 @@
     }
 }
 
-@keyframes ani_down_25p {
+@keyframes ani-down-25p {
     0% {
         transform: translateY(-25%);
     }
@@ -595,7 +614,7 @@
 }
 
 /* Keyframes Up */
-@keyframes ani_up_100p {
+@keyframes ani-up-100p {
     0% {
         transform: translateY(100%);
     }
@@ -605,7 +624,7 @@
     }
 }
 
-@keyframes ani_up_75p {
+@keyframes ani-up-75p {
     0% {
         transform: translateY(75%);
     }
@@ -615,7 +634,7 @@
     }
 }
 
-@keyframes ani_up_50p {
+@keyframes ani-up-50p {
     0% {
         transform: translateY(50%);
     }
@@ -625,7 +644,7 @@
     }
 }
 
-@keyframes ani_up_25p {
+@keyframes ani-up-25p {
     0% {
         transform: translateY(25%);
     }
@@ -636,7 +655,7 @@
 }
 
 /* Keyframes Right */
-@keyframes ani_right_100p {
+@keyframes ani-right-100p {
     0% {
         transform: translateX(-100%);
     }
@@ -646,7 +665,7 @@
     }
 }
 
-@keyframes ani_right_75p {
+@keyframes ani-right-75p {
     0% {
         transform: translateX(-75%);
     }
@@ -656,7 +675,7 @@
     }
 }
 
-@keyframes ani_right_50p {
+@keyframes ani-right-50p {
     0% {
         transform: translateX(-50%);
     }
@@ -666,7 +685,7 @@
     }
 }
 
-@keyframes ani_right_25p {
+@keyframes ani-right-25p {
     0% {
         transform: translateX(-25%);
     }
@@ -677,7 +696,7 @@
 }
 
 /* Keyframes Left */
-@keyframes ani_left_100p {
+@keyframes ani-left-100p {
     0% {
         transform: translateX(100%);
     }
@@ -687,7 +706,7 @@
     }
 }
 
-@keyframes ani_left_75p {
+@keyframes ani-left-75p {
     0% {
         transform: translateX(75%);
     }
@@ -697,7 +716,7 @@
     }
 }
 
-@keyframes ani_left_50p {
+@keyframes ani-left-50p {
     0% {
         transform: translateX(50%);
     }
@@ -707,7 +726,7 @@
     }
 }
 
-@keyframes ani_left_25p {
+@keyframes ani-left-25p {
     0% {
         transform: translateX(25%);
     }
@@ -718,7 +737,7 @@
 }
 
 /* Keyframes Spin */
-@keyframes spin_360 {
+@keyframes spin-360 {
     0% {
         transform: rotate(0deg);
     }
@@ -728,7 +747,7 @@
     }
 }
 
-@keyframes spin_270 {
+@keyframes spin-270 {
     0% {
         transform: rotate(0deg);
     }
@@ -738,7 +757,7 @@
     }
 }
 
-@keyframes spin_180 {
+@keyframes spin-180 {
     0% {
         transform: rotate(0deg);
     }
@@ -748,7 +767,7 @@
     }
 }
 
-@keyframes spin_90 {
+@keyframes spin-90 {
     0% {
         transform: rotate(0deg);
     }
