@@ -264,7 +264,19 @@ input:checked+.t3s-switch-slider:before {
     height: 64px;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
-    position: absolute;
+    position: fixed;
+    z-index: 910;
+}
+
+.t3s-loader-small {
+    border: 6px solid gainsboro;
+    border-radius: 50%;
+    border-top: 6px solid black;
+    width: 32px;
+    height: 32px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    position: fixed;
     z-index: 910;
 }
 
