@@ -2490,6 +2490,10 @@
     border-radius: unset;
 }
 
+.t3s-round-50p {
+    border-radius: 50%;
+}
+
 .t3s-round-2 {
     border-radius: 2px;
 }
