@@ -699,6 +699,10 @@
 }
 
 /* Margin */
+.t3s-margin-unset {
+    margin: unset;
+}
+
 .t3s-margin-0 {
     margin: 0px;
 }
@@ -1248,6 +1252,10 @@
 
 
 /* Padding */
+.t3s-pad-unset {
+    padding: unset;
+}
+
 .t3s-pad-0 {
     padding: 0px;
 }
