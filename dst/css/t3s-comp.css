@@ -265,7 +265,7 @@ input:checked+.t3s-switch-slider:before {
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
     position: fixed;
-    z-index: 910;
+    z-index: 10;
 }
 
 .t3s-loader-small {
@@ -277,7 +277,7 @@ input:checked+.t3s-switch-slider:before {
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
     position: fixed;
-    z-index: 910;
+    z-index: 10;
 }
 
 @-webkit-keyframes spin {
