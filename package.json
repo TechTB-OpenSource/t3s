@@ -4,5 +4,9 @@
   "description": "T3S is a utility based CSS library that can be added via CDN, downloaded and referenced in your HTML, or imported into your JavaScript.",
   "author": "TechTB LLC",
   "license": "",
-  "main": "dst/index.js"
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./css": "./src/index.css"
+  }
 }

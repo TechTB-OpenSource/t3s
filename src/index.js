@@ -18,4 +18,6 @@ export const t3s = [
 ]
 
 // Full combined CSS string
+export const t3sBaseString = `${base}`;
+export const t3sStringClass = `${util}\n${ani}\n${comp}`;
 export const t3sString = `${base}\n${util}\n${ani}\n${comp}`;
